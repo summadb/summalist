@@ -3,3 +3,4 @@ node_modules
 *.swp
 *.swo
 browserify-cache.json
+elm-stuff

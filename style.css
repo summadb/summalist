@@ -1,0 +1,38 @@
+body {
+  width: 600px;
+  margin: 15px auto;
+}
+
+a[href="#"] {
+  text-decoration: none;
+  color: #AAA;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 3px;
+  display: flex;
+}
+.item > * {
+  display: block;
+}
+.item > a {
+  flex: 1;
+  margin-right: 3px;
+}
+.item > main {
+  flex: 18;
+}
+.item input {
+  display: block;
+  border-radius: 3px;
+  border: 1px solid #AAA;
+  padding: 2px 6px;
+}
+.item input:focus { outline: none }

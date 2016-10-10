@@ -3,9 +3,10 @@ body {
   margin: 15px auto;
 }
 
-a[href="#"] {
+a {
   text-decoration: none;
   color: #AAA;
+  cursor: pointer;
 }
 ul, li {
   margin: 0;
